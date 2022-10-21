@@ -6,7 +6,7 @@ metadata:
   tags:
     - v1alpha1
   annotations:
-    'backstage.io/kubernetes-label-selector': 'apps.tanzu.vmware.com/workload-type=tcp'
+    'backstage.io/kubernetes-label-selector': 'apps.tanzu.vmware.com/workload-type=web'
 spec:
   type: service
   lifecycle: experimental
