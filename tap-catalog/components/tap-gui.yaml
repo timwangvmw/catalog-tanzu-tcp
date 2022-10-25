@@ -9,8 +9,8 @@ metadata:
     - spring
     - web
     - tanzu
-#   annotations:
-#     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app133'
+  annotations:
+    'backstage.io/kubernetes-namespace': tap-play
 spec:
   type: service
   lifecycle: experimental
