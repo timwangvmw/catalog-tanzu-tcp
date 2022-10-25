@@ -1,12 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tap-tcp
-  description: Tanzu Application Platform GUI Component for 
+  name: tanzu-java-web-app133
+  description: Tanzu Java Web App
   tags:
-    - v1alpha1
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
   annotations:
-    'backstage.io/kubernetes-namespace': tap-play
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app133'
 spec:
   type: service
   lifecycle: experimental
