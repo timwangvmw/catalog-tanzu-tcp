@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-namespace': tap-play
+    'backstage.io/kubernetes-namespace': 'tap-play'
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app133'
 spec:
   type: service
