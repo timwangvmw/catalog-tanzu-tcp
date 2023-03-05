@@ -6,7 +6,7 @@ metadata:
   tags:
     - v1alpha1
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/component=test'
+    'backstage.io/kubernetes-label-selector': 'carto.run/supply-chain-name=source-test-scan-to-url-int'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
