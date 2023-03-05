@@ -1,17 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tanzu-java-web-app135
-  description: Tanzu Java Web App
+  name: tap-runnable-component
+  description: runnable
   tags:
-    - app-accelerator
-    - java
-    - spring
-    - web
-    - tanzu
+    - v1alpha1
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app135'
+    'backstage.io/kubernetes-label-selector': 'aapp.kubernetes.io/component=test'
+    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: default-team
+  system: tap-gui
