@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tap-runnable-component
+  name: tanzu-java-web-app-catalog
   description: runnable
   tags:
     - v1alpha1
   annotations:
-    'backstage.io/kubernetes-label-selector': 'carto.run/supply-chain-name=source-test-scan-to-url-int'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
-  lifecycle: production
-  owner: default-team
-  system: tap-gui
+  lifecycle: develop
+  owner: ap-team
+  system: tanzu-java
